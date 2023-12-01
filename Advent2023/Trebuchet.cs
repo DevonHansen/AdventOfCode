@@ -135,7 +135,7 @@ public class Trebuchet
                 var subString = text.Substring(i);
                 if (subString.StartsWith(converter.Key))
                 {
-                    return converter.Value.ToString()[0];
+                    return converter.Value;
                 }
             }
         }
